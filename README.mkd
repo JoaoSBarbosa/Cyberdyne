@@ -1,0 +1,17 @@
+## Projeto Cyberdyne data and Systems 🎓👨‍💻
+
+
+
+### Cyberdyne 📎💻
+
+Cyberdyne data and Systems é uma empresa fictícia criada para o presente projeto
+
+### O projeto 🧩
+
+ Este é um projeto que visa treinar e desenvolver boas práticas em: 
+
+- Responsividade, 
+
+- Reutilização de código 
+- Uso de variáveis 
+- Conhecimento técnico sobre como criar um site.

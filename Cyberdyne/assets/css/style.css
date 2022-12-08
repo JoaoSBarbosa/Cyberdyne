@@ -1,0 +1,79 @@
+/* variáveis */
+:root{
+  --primary-text-color: #ffff;
+  --secundary-text-color: #b88b58;
+  --color: #b28756;
+  --tertiary-text-color: #cc5d44;
+  --quaternary-text-color: #46799a;
+  --text-size: 0.81rem;
+  --bg-color1: #000;
+
+  --max-content: 71.25rem;
+}
+/* geral*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: "Montserrat", "Aerial", "Helvetica","sans-serif";
+  font-size: var(--text-size);
+}
+/* Estilização header*/
+header{
+  height: 6.25rem;
+  background-color: var(--bg-color1);
+  color: var(--primary-text-color);
+}
+.header{
+  max-width: var(--max-content);
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+/* Area do logo */
+.logo{
+  width: 95px;
+  height: 100%;
+}
+.logo img {
+  width: 100%;
+}
+
+/* Area do menu */
+.menu{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu  ul{
+  display: flex;
+}
+.menu  ul,
+.menu li {
+  list-style: none;
+}
+.menu  li a{
+  text-decoration: none;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  padding: 0 15px;
+  height: 100px;
+  align-items: center;
+  border-bottom: 5px solid var(--bg-color1);
+  
+}
+.menu li a:hover,
+.menu .active a{
+  border-bottom: 5px solid var(--color);
+  color: var(--tertiary-text-color);
+}
+
+
+/* Estilização principal*/
