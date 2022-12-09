@@ -82,11 +82,17 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+  overflow: hidden;
 
-.reff {
-  text-decoration: none;
-  color: var(--tertiary-text-color);
-  display: flex;
-  text-align: center;
+}
+.banner .sliders{
+  width: 1000vw;
+  height: 100%;
+}
+.banner .slide{
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  
 }
