@@ -281,3 +281,47 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 .section-projects--filters li:first-child {
   border-left: none;
 }
+
+.section-projects--photos{
+  width: 100vw;
+  max-width: var(--max-content);
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-projects--photo {
+  width: 280px;
+}
+.section-projects--photoarea {
+  margin: 10px;
+  width: 260px;
+  height: 160px;
+}
+.section-projects--photoarea img{
+  width: inherit;
+  height: inherit;
+  
+}
+.section-projects--photoinfo{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  width:inherit;
+  height: inherit;
+  padding: 5px;
+
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.section-projects--photoinfo h5{
+  font-size: 1.12rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+.section-projects--photoarea:hover .section-projects--photoinfo{
+  display: flex;
+}
