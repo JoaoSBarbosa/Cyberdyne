@@ -86,7 +86,7 @@ header {
 
 }
 .banner .sliders{
-  width: 1000vw;
+  width: 300vw;
   height: 100%;
 }
 .banner .slide{
@@ -105,15 +105,17 @@ header {
 }
 .banner h1{
   text-transform: uppercase;
-  /* letter-spacing:2px; */
   line-height: 6rem;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
 }
 .banner span,
 .banner i{
   color: var(--secundary-text-color);
+}
+.banner i{
+  font-size: 5rem;
 }
 .banner a {
   text-decoration: none;
@@ -129,4 +131,24 @@ header {
 }
 .banner a:hover {
   background-color: var(--tertiary-text-color);
+}
+.banner .sliders-poiters{
+  width: 100vw;
+  height: 20px;
+  position: absolute;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .poiter{
+  height: 15px;
+  width: 15px;
+  border: 2px solid var(--color);
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.banner .poiter.active{
+  background-color: var(--color);
 }
