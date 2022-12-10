@@ -21,6 +21,7 @@
 body {
   font-family: "Montserrat", "Aerial", "Helvetica", "sans-serif";
   font-size: var(--text-size);
+  overflow-x: hidden;
 }
 /* Estilização header*/
 header {
@@ -73,7 +74,7 @@ header {
   color: var(--tertiary-text-color);
 }
 
-/* -- Estilização principal -- */
+/* -- AREA DO BANNER & SLIDE-- */
 
 .banner {
   background-color: rgb(72, 72, 72);
@@ -151,4 +152,45 @@ header {
 }
 .banner .poiter.active{
   background-color: var(--color);
+}
+
+/* -- AREA DE CONTEÚDOS -- */
+
+.default{
+  padding:3.12rem 0;
+}
+.default .section-title,
+.default .section-desc{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.default .section-title{
+  font-size: 1.25rem;
+}
+.default .section-desc{
+  font-size: 0.75rem;
+  color: rgb(184, 183, 183) !important;
+  margin: 12px 0 40px 0;
+}
+.default .section-body{
+  max-width: var(--max-content);
+  margin: auto;
+  background-color:#ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.default.light{
+  background-color: #f7f7f7;
+}
+.default.light .section-title{
+  color: #000;
+}
+.default.dark{
+  background-color: rgb(0, 0, 0);
+}
+.default.dark .section-title{
+  color: rgb(255, 255, 255);
 }
