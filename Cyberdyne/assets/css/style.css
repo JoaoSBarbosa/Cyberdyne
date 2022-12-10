@@ -2,7 +2,7 @@
 :root {
   --color: #b28756;
   --primary-text-color: #ffff;
-  --secundary-text-color: #b88b58;
+  --secundary-text-color: rgb(183, 183, 183);
   --tertiary-text-color: #46799a;
   --text-size: 0.9rem;
   --bg-color1: #000;
@@ -28,9 +28,9 @@ body {
 .button {
   text-decoration: none;
   display: inline-block;
-  background-color: var(--secundary-text-color);
+  background-color: var(--color);
   color: #fff;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   padding: 0.6rem 1.8rem;
@@ -101,19 +101,18 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-
 }
-.banner .sliders{
+.banner .sliders {
   width: 300vw;
   height: 100%;
 }
-.banner .slide{
+.banner .slide {
   width: 100vw;
   height: 100%;
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.7); 
+  background-color: rgba(0, 0, 0, 0.7);
 }
-.banner .slidearea{
+.banner .slidearea {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -121,7 +120,7 @@ header {
   align-items: center;
   justify-content: center;
 }
-.banner h1{
+.banner h1 {
   text-transform: uppercase;
   line-height: 6rem;
   font-weight: bold;
@@ -129,15 +128,14 @@ header {
   text-align: center;
 }
 .banner span,
-.banner i{
-  color: var(--secundary-text-color);
+.banner i {
+  color: var(--color);
 }
-.banner i{
+.banner i {
   font-size: 5rem;
 }
 
-
-.banner .sliders-poiters{
+.banner .sliders-poiters {
   width: 100vw;
   height: 20px;
   position: absolute;
@@ -146,7 +144,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-.banner .poiter{
+.banner .poiter {
   height: 15px;
   width: 15px;
   border: 2px solid var(--color);
@@ -154,7 +152,7 @@ header {
   border-radius: 50%;
   cursor: pointer;
 }
-.banner .poiter.active{
+.banner .poiter.active {
   background-color: var(--color);
 }
 
@@ -162,97 +160,124 @@ header {
 CSS DE INTERFACE -> AREA DE CONTEÚDOS 
 */
 
-.default{
-  padding:3.12rem 0;
+.default {
+  padding: 3.12rem 0;
 }
 .default .section-title,
-.default .section-desc{
+.default .section-desc {
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
 }
-.default .section-title{
+.default .section-title {
   font-size: 1.25rem;
 }
-.default .section-desc{
+.default .section-desc {
   font-size: 0.75rem;
   color: rgb(184, 183, 183) !important;
   margin: 12px 0 40px 0;
 }
-.default .section-body{
+.default .section-body {
   max-width: var(--max-content);
   margin: auto;
 }
-.default.light{
+.default.light {
   background-color: #f7f7f7;
   color: #000;
 }
 
-.default.dark{
+.default.dark {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
-
-
-
-
-
-
 
 /*
  CSS DE ÁREA ESPECÍFICA
 */
 
-.section-sobre-nos{
+.section-sobre-nos {
   display: flex;
 }
-.section-sobre-nos--left{
+.section-sobre-nos--left {
   flex: 1;
 }
-.section-sobre-nos--left p{
- font-size: 0.87rem;
- line-height: 1.5rem;
+.section-sobre-nos--left p {
+  font-size: 0.87rem;
+  line-height: 1.5rem;
 }
-.section-sobre-nos--rigth{
+.section-sobre-nos--rigth {
   width: 520px;
   text-align: center;
 }
-.section-sobre-nos--rigth img{
+.section-sobre-nos--rigth img {
   width: 480px;
   box-shadow: 0px 5px 10px #333;
 }
 
-.section-services{
+.section-services {
   display: flex;
   text-align: center;
-  
 }
 
-
-.section-service{
+.section-service {
   flex: 1;
   border-right: 2px solid #333;
   padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
-.section-service:first-child{
+.section-service:first-child {
   border-left: 2px solid #333;
 }
-.section-service h4{
+.section-service h4 {
   margin-top: 1.25rem;
   text-transform: uppercase;
   font-size: 1.12rem;
 }
-.section-service p{
+.section-service p {
   margin-top: 0.62rem;
   font-size: 0.81rem;
   color: #999;
 }
 
-.section-service i{
+.section-service i {
   font-size: 2rem;
   color: var(--color);
+}
+
+.section-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-projects--filters {
+  border: 1px solid #ccc;
+  background-color: #eee;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 0 20px;
+  
+}
+.section-projects--filters ul,
+.section-projects--filters li {
+  list-style: none;
+}
+.section-projects--filters li {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 0.81rem;
+  border-left: 1px solid #ccc ;
+  color: #555;
+  border-bottom: 3px solid #eee;
+  cursor: pointer;
+}
+.section-projects--filters li:hover,
+.section-projects--filters li.active{
+  border-bottom: 3px solid var(--color);
+}
+.section-projects--filters li:first-child {
+  border-left: none;
 }
