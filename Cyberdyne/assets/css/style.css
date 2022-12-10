@@ -1,10 +1,9 @@
 /* variáveis */
 :root {
+  --color: #b28756;
   --primary-text-color: #ffff;
   --secundary-text-color: #b88b58;
-  --color: #b28756;
-  --tertiary-text-color: #cc5d44;
-  --quaternary-text-color: #46799a;
+  --tertiary-text-color: #46799a;
   --text-size: 0.9rem;
   --bg-color1: #000;
 
@@ -206,8 +205,6 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 
 .section-sobre-nos{
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center; */
 }
 .section-sobre-nos--left{
   flex: 1;
@@ -223,4 +220,39 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 .section-sobre-nos--rigth img{
   width: 480px;
   box-shadow: 0px 5px 10px #333;
+}
+
+.section-services{
+  display: flex;
+  text-align: center;
+  
+}
+
+
+.section-service{
+  flex: 1;
+  border-right: 2px solid #333;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.section-service:first-child{
+  border-left: 2px solid #333;
+}
+.section-service h4{
+  margin-top: 1.25rem;
+  text-transform: uppercase;
+  font-size: 1.12rem;
+}
+.section-service p{
+  margin-top: 0.62rem;
+  font-size: 0.81rem;
+  color: #999;
+}
+
+.section-service i{
+  font-size: 2rem;
+  color: var(--color);
 }
