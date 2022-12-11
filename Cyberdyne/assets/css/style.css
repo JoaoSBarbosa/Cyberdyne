@@ -325,3 +325,19 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 .section-projects--photoarea:hover .section-projects--photoinfo{
   display: flex;
 }
+
+.section-team-area{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 3.12rem 0;
+}
+.bg-team{
+  background-image: url(../../media/bg-team.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+
+}
+.section-team{
+
+}
