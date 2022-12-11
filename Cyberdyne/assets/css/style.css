@@ -180,6 +180,7 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 .default .section-body {
   max-width: var(--max-content);
   margin: auto;
+  
 }
 .default.light {
   background-color: #f7f7f7;
@@ -388,7 +389,8 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   background-color: var(--color);
 }
 
-.section-team-avatar{
+.section-team-avatar,
+.section-reviws-cliente{
   width: 150px;
   height: auto;
 }
@@ -423,4 +425,129 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 }
 
 
+/* 
+  Area de avaliação
+*/
 
+.section-reviews .section-body{
+  max-width: initial;
+}
+.section-reviews{
+  overflow: hidden;
+}
+
+.default .section-reviews-title,
+.default .section-reviews-desc{
+  text-align: center;
+  text-align:center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.section-reviews-desc,
+.section-reviews--role,
+.section-reviews-dep{
+  color: #555;
+}
+.default .section-reviews-title{
+  font-size: 20px;
+}
+.default .section-reviews-desc{
+  font-size: 12px;
+  margin-top:10px;
+  margin-bottom:40px;
+}
+/* -- Slides -- */
+.section-reviews .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+.section-reviews .slide {
+  width: 100vw;
+  height: 100%;
+  display: inline-block; 
+}
+.section-reviews .slidearea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.section-reviews .section-reviews-cliente{
+  width: 100px;
+}
+.section-reviews--name{
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 20px 0 5px 0;
+}
+.section-reviews--role{
+  font-size: 14px;
+}
+.section-reviews--img-quote{
+  width: 20px;
+  margin-top: 30px;
+}
+.section-reviews-dep{
+  font-size: 13px;
+  max-width: 43.75rem;
+  text-align: center;
+  line-height: 1.56rem;
+  margin: 20px 30px;
+
+}
+
+.section-reviews .sliders-poiters{
+  width: 100vw;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.section-reviews .poiter{
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--color);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.section-reviews .poiter:hover,
+.section-reviews .poiter.active{
+  background-color: #b28756;
+}
+
+/* 
+  AREA DE TECH
+*/
+
+.section-tech{
+  border-top: 2px solid  rgb(208, 208, 208);
+  border-bottom: 2px solid rgb(208, 208, 208);
+  padding: 10 0;
+  margin-bottom: 2rem;
+  
+}
+
+.section-tech i{
+  font-size: 5rem;
+  padding: 0;
+}
+.section-tech-skill{
+  overflow: hidden;
+  max-width: 800px;
+  margin: auto;
+}
+.section-tech-skill .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+.section-tech-skill .slide{
+  width: 100px;
+  height: 100%;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 10px;
+}
