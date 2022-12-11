@@ -357,12 +357,13 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   margin-right: 1.25rem;
 }
 .section-team .slidearea {
-  height: 100%;
   display: flex;
   flex-direction: column;
-  color: var(--primary-text-color);
   align-items: center;
   justify-content: center;
+  height: 100%;
+  color: #000;
+  padding: 30px;
 }
 
 .section-team-area .sliders-pointer{
@@ -379,7 +380,47 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   border-radius: 8px;
   margin: 0 5px;
   cursor: pointer;
+  
 }
+
+
 .section-team-area .pointer.active{
   background-color: var(--color);
 }
+
+.section-team-avatar{
+  width: 150px;
+  height: auto;
+}
+.section-team--name{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.06rem;
+  text-align: center;
+  margin-top: 1.87rem;
+}
+.section-team--role{
+  font-size: 0.87rem;
+  color: #999;
+  margin-top: 5px;
+}
+.section-team--social{
+  display: flex;
+  margin-top: 20px;
+}
+.section-team--social a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #46799a;
+  width: 25px;
+  height: 25px;
+  border-radius: 13px;
+  margin-right: 10px;
+}
+.section-team--social a:hover{
+  background-color: var(--color);
+}
+
+
+
