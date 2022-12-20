@@ -524,10 +524,11 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 */
 
 .section-tech{
-  border-top: 2px solid  rgb(208, 208, 208);
-  border-bottom: 2px solid rgb(208, 208, 208);
+  border-top: 1px solid  rgb(208, 208, 208);
+  border-bottom: 1px solid rgb(208, 208, 208);
   padding: 10 0;
-  margin-bottom: 2rem;
+  background-color: #fff !important;
+  
   
 }
 
@@ -536,13 +537,19 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   padding: 0;
 }
 .section-tech-skill{
-  overflow: hidden;
+  /* overflow: hidden; */
   max-width: 800px;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+ 
+  
 }
 .section-tech-skill .sliders {
   width: 1000vw;
   height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .section-tech-skill .slide{
   width: 100px;
@@ -550,4 +557,82 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   display: inline-block;
   padding: 5px;
   margin-left: 10px;
+}
+
+.section-price{
+  display: flex;
+}
+.section-price-card{
+  flex: 1;
+  background-color: var(--primary-text-color);
+  margin-right: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-price .card-btn{
+  display: inline-block;
+}
+.section-price-card:last-child{
+  margin-left: 0;
+}
+.section-price--card-name{
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+}
+.section-price--card-money{
+  font-weight: bold;
+  font-size: 1.37rem;
+  margin-top: 0.62rem;
+}
+.section-price--card-perido{
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+.section-price--card-point{
+  font-size: 12px;
+}
+.button--dark {
+  background-color:#000;
+}
+.button--dark:hover,
+.button--dark.active{
+  background-color: var(--color);
+}
+
+.section-consultoria{
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+  border-bottom: 2px solid rgb(227, 226, 226);
+}
+.section-premium{
+  max-width: 550px;
+}
+.section-premium img{
+  width: 100%;
+  height: 100%;
+}
+.section-premium-text{
+  flex: 1;
+  margin-left: 3rem;
+  
+}
+.section-premium-text ul{
+  list-style: none;
+}
+.section-premium-text .title{
+  font-size: 17px;
+  font-weight: 600;
+}
+.desc{
+  margin: 10px 0;
+}
+.desc li{
+  margin-left: 25px;
+  margin-bottom: 5px;
 }
