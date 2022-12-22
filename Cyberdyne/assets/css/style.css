@@ -587,7 +587,6 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   AREA - PLANOS
 */
 
-
 .section-price{
   display: flex;
 }
@@ -784,4 +783,42 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 }
 .section-contact .button{
   border: 0;
+}
+
+/*
+AREA DO MAPA
+*/
+
+.section-map{
+  background-image: url('../img/mapa.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1.87rem 0;
+  
+}
+
+.section-map--area{
+  width: 100vw;
+  max-width: 1140px;
+  margin: auto;
+}
+.section-map--info{
+  width: 50%;
+  padding: 1.87rem;
+  background-color: #fff;
+  color: var(--bg-color1);
+}
+.section-map--info-item{
+  display: flex;
+  align-items: center;
+  color: #999;
+  margin: 10px 0;
+  
+}
+.section-map--info-item i{
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #ccc;
+  padding: 5px;
 }
