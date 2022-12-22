@@ -524,17 +524,9 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   AREA DE TECH
 */
 
-.section-tech{
-  border-top: 1px solid  rgb(208, 208, 208);
-  border-bottom: 1px solid rgb(208, 208, 208);
-  padding: 10 0;
-  background-color: #fff !important;
-}
-/* .section-body{
-  border: 5px solid yellow;
-} */
 
 #tech{
+  background-color:#FFF;
   border-top: 2px solid rgb(218, 218, 218);
   border-bottom: 2px solid rgb(218, 218, 218);
   padding: 1.2rem 0;
@@ -590,6 +582,12 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 #tech .pointer.active{
   background-color: var(--color);
 }
+
+/*
+  AREA - PLANOS
+*/
+
+
 .section-price{
   display: flex;
 }
@@ -634,7 +632,9 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 .button--dark.active{
   background-color: var(--color);
 }
-
+#premium{
+  background-color:#FFF;
+}
 .section-consultoria{
   display: flex;
   justify-content: space-between;
