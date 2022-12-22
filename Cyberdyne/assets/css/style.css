@@ -385,7 +385,8 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 }
 
 
-.section-team-area .pointer.active{
+.section-team-area .pointer.active,
+.section-team-area .pointer:hover{
   background-color: var(--color);
 }
 
@@ -528,37 +529,67 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   border-bottom: 1px solid rgb(208, 208, 208);
   padding: 10 0;
   background-color: #fff !important;
-  
-  
+}
+/* .section-body{
+  border: 5px solid yellow;
+} */
+
+#tech{
+  border-top: 2px solid rgb(218, 218, 218);
+  border-bottom: 2px solid rgb(218, 218, 218);
+  padding: 1.2rem 0;
 }
 
-.section-tech i{
-  font-size: 5rem;
-  padding: 0;
-}
-.section-tech-skill{
-  /* overflow: hidden; */
-  max-width: 800px;
+.section-tecnology{
+  margin: 0 auto;
+  overflow: hidden;
   margin: auto;
-  display: flex;
-  justify-content: space-between;
  
-  
 }
-.section-tech-skill .sliders {
-  width: 1000vw;
+.section-tecnology .sliders{
+  width: 500vw;
   height: 100%;
-  display: flex;
-  justify-content: space-between;
 }
-.section-tech-skill .slide{
-  width: 100px;
+.section-tecnology .slide{
+  width: 100vw;
   height: 100%;
   display: inline-block;
-  padding: 5px;
-  margin-left: 10px;
+  padding-left: 10px;
+}
+.section-tecnology .slidearea{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 100px 0;
+ 
+}
+.tech-item{
+  margin-right: 5rem;
+  margin-left: 20px;
+}
+.section-tecnology i{
+  font-size: 4rem;
+}
+#tech .sliders-pointers{
+ 
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#tech .pointer{
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--color);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+#tech .pointer:hover,
+#tech .pointer.active{
+  background-color: var(--color);
+}
 .section-price{
   display: flex;
 }
@@ -608,7 +639,10 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   display: flex;
   justify-content: space-between;
   padding: 4rem 0;
-  border-bottom: 2px solid rgb(227, 226, 226);
+ 
+}
+.section-consultoria i{
+  color: var(--color);
 }
 .section-premium{
   max-width: 550px;
@@ -635,4 +669,119 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 .desc li{
   margin-left: 25px;
   margin-bottom: 5px;
+}
+.section-abouts{
+  display: flex;
+}
+.section-about{
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-about h3{
+  color: var(--color);
+  font-size: 45px;
+}
+.section-about h4{
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.section-about p {
+  margin-top: 30px;
+  font-size: 13px;
+  color: var(--secundary-text-color);
+}
+.section-about-line{
+  width: 30px;
+  border-bottom: 2px solid var(--color);
+  margin: auto;
+}
+.section-share{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color:#FFF;
+  color:#999;
+  font-size: 15px;
+}
+.section-share--legend {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.section-share--legend i {
+  margin-right: 10px;
+}
+.section-share--item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.section-share--icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-share--icon i{
+  font-size: 35px;
+}
+.section-share--icon.twitter{
+  color: #34c5f0;
+}
+.section-share--icon.linkedin {
+  color:#127cb4;
+}
+.section-share--icon.facebook {
+  color:#336297;
+}
+.section-share--icon.google {
+  color:#e74237;
+}
+
+.section-share--icon.pinterest {
+  color:#b71c29;
+}
+
+/*
+  AREA CONTATO
+*/
+
+.section-contact{
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+}
+.section-contact--div {
+  display:flex;
+}
+.section-contact--div input:first-child{
+  margin-right: 20px;
+}
+.section-contact input[type=text],
+.section-contact textarea {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  outline: 0;
+  margin-top: 10px;
+}
+.section-contact textarea{
+  height: 100px;
+  resize: none;
+}
+.section-contact .button{
+  border: 0;
 }
