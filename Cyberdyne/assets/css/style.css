@@ -822,3 +822,79 @@ AREA DO MAPA
   color: #ccc;
   padding: 5px;
 }
+
+/*
+
+FOOTER
+*/
+.title-footer,
+.desc-footer{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.title-footer{
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.desc-footer{
+  text-align: start;
+  font-size: 0.75rem;
+  color: rgb(184, 183, 183);
+  margin: 10px;
+}
+.section-footer-itens{
+  display: flex;
+  justify-content: space-between;
+}
+.section-icons-area{
+  flex: 1;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-right: 1px solid rgb(49, 49, 49);
+  
+}
+.section-footer--icons{
+  margin-top: 1rem;
+  display: flex;
+  gap: 25px;
+  padding: 20px;
+  
+  
+}
+
+
+.section-footer-icon i{
+  font-size: 1.9rem;
+  color: var(--color);
+  
+ 
+}
+
+.section-footer--area li{
+  list-style: none;
+  margin-bottom: 15px;
+}
+.section-footer--area a{
+  text-decoration: none;
+  color: #ccc;
+}
+.section-footer--area a:hover{
+  color: var(--color);
+  text-shadow: 1px 1px 10px red;
+}
+.section-text{
+  border-right: 1px solid rgb(49, 49, 49);
+}
+.section-text,
+.section-ref{
+  flex: 1;
+  padding: 20px;
+}
+.section-copy,
+.copy-area{
+  text-align: center;
+  margin-top: 2rem;
+}
