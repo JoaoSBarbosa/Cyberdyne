@@ -62,7 +62,7 @@ header {
 }
 
 /* -- Area do menu -- */
-.menu-openet{
+.menu-openet {
   display: none;
 }
 .menu {
@@ -108,7 +108,6 @@ header {
 .banner .sliders {
   width: 300vw;
   height: 100%;
- 
 }
 .banner .slide {
   width: 100vw;
@@ -184,7 +183,6 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 .default .section-body {
   max-width: var(--max-content);
   margin: auto;
-  
 }
 .default.light {
   background-color: #f7f7f7;
@@ -263,7 +261,6 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   border-radius: 30px;
   display: inline-block;
   padding: 0 20px;
-  
 }
 .section-projects--filters ul,
 .section-projects--filters li {
@@ -274,20 +271,20 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   padding: 10px;
   text-transform: uppercase;
   font-size: 0.81rem;
-  border-left: 1px solid #ccc ;
+  border-left: 1px solid #ccc;
   color: #555;
   border-bottom: 3px solid #eee;
   cursor: pointer;
 }
 .section-projects--filters li:hover,
-.section-projects--filters li.active{
+.section-projects--filters li.active {
   border-bottom: 3px solid var(--color);
 }
 .section-projects--filters li:first-child {
   border-left: none;
 }
 
-.section-projects--photos{
+.section-projects--photos {
   width: 100vw;
   max-width: var(--max-content);
   margin-top: 1.25rem;
@@ -303,15 +300,14 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   width: 260px;
   height: 160px;
 }
-.section-projects--photoarea img{
+.section-projects--photoarea img {
   width: inherit;
   height: inherit;
-  
 }
-.section-projects--photoinfo{
+.section-projects--photoinfo {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.8);
-  width:inherit;
+  width: inherit;
   height: inherit;
   padding: 5px;
 
@@ -321,29 +317,28 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   text-align: center;
   color: var(--primary-text-color);
 }
-.section-projects--photoinfo h5{
+.section-projects--photoinfo h5 {
   font-size: 1.12rem;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 0.8rem;
 }
-.section-projects--photoarea:hover .section-projects--photoinfo{
+.section-projects--photoarea:hover .section-projects--photoinfo {
   display: flex;
 }
 
-.section-team-area{
+.section-team-area {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 3.12rem 0;
 }
-.bg-team{
+.bg-team {
   background-image: url(../../media/bg-team.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
-
 }
-.section-team{
+.section-team {
   overflow: hidden;
   max-width: 880px;
   margin: auto;
@@ -371,51 +366,49 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   padding: 30px;
 }
 
-.section-team-area .sliders-pointer{
+.section-team-area .sliders-pointer {
   height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1.87rem;
 }
-.section-team-area .pointer{
+.section-team-area .pointer {
   width: 15px;
   height: 15px;
   border: 2px solid var(--color);
   border-radius: 8px;
   margin: 0 5px;
   cursor: pointer;
-  
 }
 
-
 .section-team-area .pointer.active,
-.section-team-area .pointer:hover{
+.section-team-area .pointer:hover {
   background-color: var(--color);
 }
 
 .section-team-avatar,
-.section-reviws-cliente{
+.section-reviws-cliente {
   width: 150px;
   height: auto;
 }
-.section-team--name{
+.section-team--name {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.06rem;
   text-align: center;
   margin-top: 1.87rem;
 }
-.section-team--role{
+.section-team--role {
   font-size: 0.87rem;
   color: #999;
   margin-top: 5px;
 }
-.section-team--social{
+.section-team--social {
   display: flex;
   margin-top: 20px;
 }
-.section-team--social a{
+.section-team--social a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -425,41 +418,40 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   border-radius: 13px;
   margin-right: 10px;
 }
-.section-team--social a:hover{
+.section-team--social a:hover {
   background-color: var(--color);
 }
-
 
 /* 
   Area de avaliação
 */
 
-.section-reviews .section-body{
+.section-reviews .section-body {
   max-width: initial;
 }
-.section-reviews{
+.section-reviews {
   overflow: hidden;
 }
 
 .default .section-reviews-title,
-.default .section-reviews-desc{
+.default .section-reviews-desc {
   text-align: center;
-  text-align:center;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 600;
 }
 .section-reviews-desc,
 .section-reviews--role,
-.section-reviews-dep{
+.section-reviews-dep {
   color: #555;
 }
-.default .section-reviews-title{
+.default .section-reviews-title {
   font-size: 20px;
 }
-.default .section-reviews-desc{
+.default .section-reviews-desc {
   font-size: 12px;
-  margin-top:10px;
-  margin-bottom:40px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 /* -- Slides -- */
 .section-reviews .sliders {
@@ -469,7 +461,7 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 .section-reviews .slide {
   width: 100vw;
   height: 100%;
-  display: inline-block; 
+  display: inline-block;
 }
 .section-reviews .slidearea {
   display: flex;
@@ -478,31 +470,30 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   justify-content: center;
   height: 100%;
 }
-.section-reviews .section-reviews-cliente{
+.section-reviews .section-reviews-cliente {
   width: 100px;
 }
-.section-reviews--name{
+.section-reviews--name {
   font-weight: bold;
   font-size: 1rem;
   margin: 20px 0 5px 0;
 }
-.section-reviews--role{
+.section-reviews--role {
   font-size: 14px;
 }
-.section-reviews--img-quote{
+.section-reviews--img-quote {
   width: 20px;
   margin-top: 30px;
 }
-.section-reviews-dep{
+.section-reviews-dep {
   font-size: 13px;
   max-width: 43.75rem;
   text-align: center;
   line-height: 1.56rem;
   margin: 20px 30px;
-
 }
 
-.section-reviews .sliders-poiters{
+.section-reviews .sliders-poiters {
   width: 100vw;
   height: 30px;
   display: flex;
@@ -510,7 +501,7 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   align-items: center;
   margin-top: 2.5rem;
 }
-.section-reviews .poiter{
+.section-reviews .poiter {
   width: 15px;
   height: 15px;
   border: 2px solid var(--color);
@@ -520,7 +511,7 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 }
 
 .section-reviews .poiter:hover,
-.section-reviews .poiter.active{
+.section-reviews .poiter.active {
   background-color: #b28756;
 }
 
@@ -528,53 +519,49 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   AREA DE TECH
 */
 
-
-#tech{
-  background-color:#FFF;
+#tech {
+  background-color: #fff;
   border-top: 2px solid rgb(218, 218, 218);
   border-bottom: 2px solid rgb(218, 218, 218);
   padding: 1.2rem 0;
 }
 
-.section-tecnology{
+.section-tecnology {
   margin: 0 auto;
   overflow: hidden;
   margin: auto;
- 
 }
-.section-tecnology .sliders{
+.section-tecnology .sliders {
   width: 500vw;
   height: 100%;
 }
-.section-tecnology .slide{
+.section-tecnology .slide {
   width: 100vw;
   height: 100%;
   display: inline-block;
   padding-left: 10px;
 }
-.section-tecnology .slidearea{
+.section-tecnology .slidearea {
   height: 100%;
   display: flex;
   align-items: center;
   padding: 100px 0;
- 
 }
-.tech-item{
+.tech-item {
   margin-right: 5rem;
   margin-left: 20px;
 }
-.section-tecnology i{
+.section-tecnology i {
   font-size: 4rem;
 }
-#tech .sliders-pointers{
- 
+#tech .sliders-pointers {
   height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#tech .pointer{
+#tech .pointer {
   width: 15px;
   height: 15px;
   border: 2px solid var(--color);
@@ -583,7 +570,7 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   cursor: pointer;
 }
 #tech .pointer:hover,
-#tech .pointer.active{
+#tech .pointer.active {
   background-color: var(--color);
 }
 
@@ -591,10 +578,10 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   AREA - PLANOS
 */
 
-.section-price{
+.section-price {
   display: flex;
 }
-.section-price-card{
+.section-price-card {
   flex: 1;
   background-color: var(--primary-text-color);
   margin-right: 20px;
@@ -604,79 +591,77 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   flex-direction: column;
   justify-content: space-between;
 }
-.section-price .card-btn{
+.section-price .card-btn {
   display: inline-block;
 }
-.section-price-card:last-child{
+.section-price-card:last-child {
   margin-left: 0;
 }
-.section-price--card-name{
+.section-price--card-name {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 600;
 }
-.section-price--card-money{
+.section-price--card-money {
   font-weight: bold;
   font-size: 1.37rem;
   margin-top: 0.62rem;
 }
-.section-price--card-perido{
+.section-price--card-perido {
   color: #999;
   text-transform: uppercase;
   margin-bottom: 1.25rem;
 }
-.section-price--card-point{
+.section-price--card-point {
   font-size: 12px;
 }
 .button--dark {
-  background-color:#000;
+  background-color: #000;
 }
 .button--dark:hover,
-.button--dark.active{
+.button--dark.active {
   background-color: var(--color);
 }
-#premium{
-  background-color:#FFF;
+#premium {
+  background-color: #fff;
 }
-.section-consultoria{
+.section-consultoria {
   display: flex;
   justify-content: space-between;
   padding: 4rem 0;
- 
 }
-.section-consultoria i{
+.section-consultoria i {
   color: var(--color);
 }
-.section-premium{
+.section-premium {
   max-width: 550px;
 }
-.section-premium img{
+.section-premium img {
   width: 100%;
   height: 100%;
 }
-.section-premium-text{
+.section-premium-text {
   flex: 1;
   margin-left: 3rem;
-  
 }
-.section-premium-text ul{
+.section-premium-text ul {
   list-style: none;
 }
-.section-premium-text .title{
+.section-premium-text .title {
   font-size: 17px;
   font-weight: 600;
 }
-.desc{
+.desc {
   margin: 10px 0;
 }
-.desc li{
+.desc li {
   margin-left: 25px;
   margin-bottom: 5px;
 }
-.section-abouts{
+.section-abouts {
   display: flex;
 }
-.section-about{
+.section-about {
   flex: 1;
   text-align: center;
   padding: 15px;
@@ -684,11 +669,11 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   flex-direction: column;
   justify-content: space-between;
 }
-.section-about h3{
+.section-about h3 {
   color: var(--color);
   font-size: 45px;
 }
-.section-about h4{
+.section-about h4 {
   margin-top: 20px;
   text-transform: uppercase;
   font-size: 18px;
@@ -698,18 +683,18 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   font-size: 13px;
   color: var(--secundary-text-color);
 }
-.section-about-line{
+.section-about-line {
   width: 30px;
   border-bottom: 2px solid var(--color);
   margin: auto;
 }
-.section-share{
+.section-share {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px;
-  background-color:#FFF;
-  color:#999;
+  background-color: #fff;
+  color: #999;
   font-size: 15px;
 }
 .section-share--legend {
@@ -735,42 +720,42 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   justify-content: center;
 }
 
-.section-share--icon i{
+.section-share--icon i {
   font-size: 35px;
 }
-.section-share--icon.twitter{
+.section-share--icon.twitter {
   color: #34c5f0;
 }
 .section-share--icon.linkedin {
-  color:#127cb4;
+  color: #127cb4;
 }
 .section-share--icon.facebook {
-  color:#336297;
+  color: #336297;
 }
 .section-share--icon.google {
-  color:#e74237;
+  color: #e74237;
 }
 
 .section-share--icon.pinterest {
-  color:#b71c29;
+  color: #b71c29;
 }
 
 /*
   AREA CONTATO
 */
 
-.section-contact{
+.section-contact {
   max-width: 450px;
   margin: auto;
   text-align: center;
 }
 .section-contact--div {
-  display:flex;
+  display: flex;
 }
-.section-contact--div input:first-child{
+.section-contact--div input:first-child {
   margin-right: 20px;
 }
-.section-contact input[type=text],
+.section-contact input[type="text"],
 .section-contact textarea {
   display: block;
   width: 100%;
@@ -781,11 +766,11 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
   outline: 0;
   margin-top: 10px;
 }
-.section-contact textarea{
+.section-contact textarea {
   height: 100px;
   resize: none;
 }
-.section-contact .button{
+.section-contact .button {
   border: 0;
 }
 
@@ -793,34 +778,32 @@ CSS DE INTERFACE -> AREA DE CONTEÚDOS
 AREA DO MAPA
 */
 
-.section-map{
-  background-image: url('../img/mapa.jpg');
+.section-map {
+  background-image: url("../img/mapa.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 1.87rem 0;
-  
 }
 
-.section-map--area{
+.section-map--area {
   width: 100vw;
   max-width: 1140px;
   margin: auto;
 }
-.section-map--info{
+.section-map--info {
   width: 50%;
   padding: 1.87rem;
   background-color: #fff;
   color: var(--bg-color1);
 }
-.section-map--info-item{
+.section-map--info-item {
   display: flex;
   align-items: center;
   color: #999;
   margin: 10px 0;
-  
 }
-.section-map--info-item i{
+.section-map--info-item i {
   font-size: 1.5rem;
   margin-right: 15px;
   color: #ccc;
@@ -832,89 +815,81 @@ AREA DO MAPA
 FOOTER
 */
 .title-footer,
-.desc-footer{
+.desc-footer {
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
 }
-.title-footer{
+.title-footer {
   font-size: 1.25rem;
   margin-bottom: 15px;
 }
-.desc-footer{
+.desc-footer {
   text-align: start;
   font-size: 0.75rem;
   color: rgb(184, 183, 183);
   margin: 10px;
 }
-.section-footer-itens{
+.section-footer-itens {
   display: flex;
   justify-content: space-between;
 }
-.section-icons-area{
+.section-icons-area {
   flex: 1;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   border-right: 1px solid rgb(49, 49, 49);
-  
 }
-.section-footer--icons{
+.section-footer--icons {
   margin-top: 1rem;
   display: flex;
   gap: 25px;
   padding: 20px;
-  
-  
 }
 
-
-.section-footer-icon i{
+.section-footer-icon i {
   font-size: 1.9rem;
   color: var(--color);
-  
- 
 }
 
-.section-footer--area li{
+.section-footer--area li {
   list-style: none;
   margin-bottom: 15px;
 }
-.section-footer--area a{
+.section-footer--area a {
   text-decoration: none;
   color: #ccc;
 }
-.section-footer--area a:hover{
+.section-footer--area a:hover {
   color: var(--color);
   text-shadow: 1px 1px 10px red;
 }
-.section-text{
+.section-text {
   border-right: 1px solid rgb(49, 49, 49);
 }
 .section-text,
-.section-ref{
+.section-ref {
   flex: 1;
   padding: 20px;
 }
 .section-copy,
-.copy-area{
+.copy-area {
   text-align: center;
   margin-top: 2rem;
 }
 
-@media(min-width: 450px) and (max-width:800px){
-
-  .logo{
-    margin-left: 20px;
-   
+@media (min-width: 450px) and (max-width: 800px) {
+  .logo {
+    margin-left: 30px;
   }
- .menu-openet{
-  display: block;
-  width: 45px;
-  margin-right: 30px;
- }
-  nav{
+  .menu-openet {
+    display: block;
+    width: 45px;
+    margin-right: 30px;
+  }
+  nav {
     display: none;
     position: absolute;
     z-index: 99;
@@ -925,21 +900,87 @@ FOOTER
     right: 0;
   }
 
-  .menu ul{
+  .menu ul {
     flex-direction: column;
   }
-  .menu li a{
+  .menu li a {
     font-weight: bold;
     height: 85px;
     font-size: 27px;
     margin-left: 50px;
     border: 0;
   }
-  .menu li.active a{
+  .menu li.active a {
     color: var(--color);
     border: 0;
   }
   .banner .slide {
     margin-top: -49px;
   }
+  .section-sobre-nos {
+    flex-direction: column;
+  }
+  .section-sobre-nos--left{
+    margin: 0 30px 30px 30px;
+  }
+  .section-sobre-nos--rigth{
+    width: auto;
+  }
+  .section-services{
+    flex-wrap: wrap;
+  }
+  .section-service{
+    min-width: 50%;
+    margin-bottom: 30px;
+  }
+  .section-service:first-child{
+    border-left: 0;
+  }
+  .section-team {
+    max-width: 580px;
+  }
+  .section-tecnology .slidearea {
+    padding: 100px;
+  }
+  .section-price {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section-price-card {
+    min-width: 40%;
+    margin: 10px;
+  }
+  .section-consultoria{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .section-premium{
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .section-abouts{
+    flex-wrap: wrap;
+  }
+  .section-about{
+    min-width: 50%;
+    margin-bottom: 20px;
+  }
+  .section-map--info{
+    width: auto;
+    border-radius: 5px;
+  }
+  .section-map{
+    padding: 30px;
+  }
+  .section-map--area{
+    width: auto;
+  }
+  .section-map--info-item{
+    margin-bottom: 20px;
+  }
+  .section-map--info-item:last-child{
+    margin-bottom: 0;
+  }
+
 }
