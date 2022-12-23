@@ -1028,6 +1028,7 @@ FOOTER
   }
   .banner .slidearea{
     height: 100vh;
+    margin-top: -26px;
   }
   .section-sobre-nos {
     flex-direction: column;
